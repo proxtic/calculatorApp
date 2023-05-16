@@ -1,0 +1,66 @@
+/* 
+// File Name: styles.css
+// Name: Grace Gundrum
+// Created: 5/16/2023
+// Description: File contains all CSS used in application */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffafa;
+}
+
+.container{
+    width: 80vh;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputChunck{
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.inputChunck h2{
+    background-color: #f5f5f5;
+}
+
+.inputSection{
+    margin: 10px;
+    background-color: #f5f5f5;
+}
+
+.inputSection label{
+    background-color: #f5f5f5;
+    margin-right: 10px;
+}
+.inputSection input{
+    background-color: #f5f5f5;
+    padding: 5px;
+    width: 250px
+}
+
+#endTimeOutput, #totalTimeOutput{
+    background-color: #f5f5f5;
+}
+
+button{
+    margin: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #3D3D3D;
+}
+
+button:hover{
+    margin: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #7d7d7d;
+}

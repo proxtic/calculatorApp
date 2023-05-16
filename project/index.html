@@ -1,0 +1,59 @@
+<!--
+// File Name: index.html
+// Name: Grace Gundrum
+// Created: 5/16/2023
+// Description: File contains all HTML used in application -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Time Calculator App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="centered-div">
+            <h1>Test Time Calculator App</h1>
+            <div class="inputChunck">
+                <h2>End Time</h2>
+                <div class="inputSection">
+                    <label for="hoursInput">Hours:</label>
+                    <input type="number" id="hoursInput" step="0.01" placeholder="Enter hours of test (ex: 4.72)">
+                </div>
+                <div class="inputSection">
+                    <label for="timeInput">Time:</label>
+                    <input type="time" id="timeInput" placeholder="Enter a time">
+                </div>
+                <button id="endTimeButton">Calculate End Time</button>
+                <div id="endTimeOutput"></div>
+            </div>
+
+            <div class="inputChunck">
+                <h2>Total Test Time</h2>
+                <div class="inputSection">
+                    <label for="subsiteInput">Number of Reticles:</label>
+                    <input type="number" min="0" id="reticleInput" step="1" placeholder="Enter number of reticles">
+                </div>
+                <div class="inputSection">
+                    <label for="subsiteInput">Number of Subsites:</label>
+                    <input type="number" min="0" id="subsiteInput" step="1" placeholder="Enter number of subsites per reticle">    
+                </div>
+                <div class="inputSection">
+                    <label for="secondsInput">Test Time in Seconds:</label>
+                    <input type="number" min="0" id="secondsInput" placeholder="Enter seconds of each test (ex: 14.2)">    
+                </div>
+                
+                <button id="totalTimeButton">Calculate Total Time</button>
+
+                <div id="totalTimeOutput">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
